@@ -1,5 +1,5 @@
 import React, { Component, createRef, CSSProperties } from 'react';
-import loadPostcode, { postcodeScriptUrl, PostcodeConstructor, PostcodeOptions } from './loadPostcode';
+import loadPostcode, { PostcodeConstructor, PostcodeOptions, postcodeScriptUrl } from './loadPostcode';
 
 export interface DaumPostcodeEmbedProps
   extends Omit<PostcodeOptions, 'oncomplete' | 'onresize' | 'onclose' | 'onsearch' | 'width' | 'height'> {
